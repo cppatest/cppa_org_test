@@ -1,0 +1,34 @@
+.navigation_bar{
+	background-color:grey;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation_bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation_bar li {
+	display:inline-block;
+	text-align: center;
+}
+
+.navigation_bar a{
+	height:20px;
+	padding: 10px 10px;
+	overflow: hidden;
+	font-size: 30px;
+	text-decoration:none;
+	text-align: center;
+}
+
+select, input[name="Experience"]{
+	width:170px;
+}
+
+.navigation_bar li:hover{
+	background-color:white;
+}

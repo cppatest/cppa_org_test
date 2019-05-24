@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="jquery_stuff.js"></script>
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+
+	<body>
+		<div class="navigation_bar">
+			<ul>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+
+		<form action="" class="userForm">
+			First name:<br>
+			<input type="text" name="firstname">
+			<br>
+			Last name:<br>
+			<input type="text" name="lastname">
+			<br>
+
+			Gender Type:<br>
+			<div class="genderType">
+				<input type="radio" name="gender" value="male" checked> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other
+			</div><br>
+
+			Religion:<br>
+			<select name="Religion">
+				<option value="">Please Select Religion</option>
+				<option value="Islam">Islam</option>
+				<option value="Christianity">Christianity</option>
+				<option value="Judaism">Judaism</option>
+				<option value="Hinduism">Hinduism</option>
+			</select><br>
+
+			Profession:<br>
+			<select name="Profession">
+				<option value="">Please Select Profession</option>
+				<option value="Student">Student</option>
+				<option value="Business">Business</option>
+				<option value="Employee">Employee</option>
+			</select><br>
+
+			Experience:<br>
+			<input type="number" name="Experience" min="1" max="20">
+			<br>
+
+			<input class="btn_submit" type="submit" value="Submit">
+		</form> 
+
+		<a href="" name="help">Want some help?</a>
+
+		<div class="showData"> </div>
+		
+		<div class="animatedBlocks">
+			<input type="button" class="btn_animated" value="Animated Divs" >
+			<div class="animated1"> </div>
+			<div class="animated2"> </div>
+			<div class="animated3"> </div>		
+		</div>
+		
+	</body>
+</html>
