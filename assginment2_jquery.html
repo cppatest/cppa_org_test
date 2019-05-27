@@ -2,25 +2,51 @@
 <html>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="jquery_stuff.js"></script>
-	<link href="StyleSheet.css" rel="stylesheet" type="text/css">
-
+	<head>
+		<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+	</head>
 	<body>
 		<div class="navigation_bar">
 			<ul>
-			<li><a class="active" href="#home">Home</a></li>
-			<li><a href="#news">News</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#about">About</a></li>
+				<li><a class="active" href="#home">Home</a>
+					<ul id="homeLinks">
+						<li><a href="#homeLink1">Link1</a></li>
+						<li><a href="#homeLink2">Link2</a></li>
+						<li><a href="#homeLink3">Link3</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="#news">News</a> 
+					<ul id="newsLinks">
+						<li><a href="#newsLink1">Link1</a></li>
+						<li><a href="#newsLink2">Link2</a></li>
+						<li><a href="#newsLink3">Link3</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="#contact">Contact</a>
+					<ul id="contactLinks">
+						<li><a href="#contactLink1">Link1</a></li>
+						<li><a href="#contactLink2">Link2</a></li>
+						<li><a href="#contactLink3">Link3</a></li>
+						<li><a href="#contactLink4">Link4</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="#about">About</a>
+					<ul id="aboutLinks">
+						<li><a href="#aboutLink1">Link1</a></li>
+						<li><a href="#aboutLink2">Link2</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 
 		<form action="" class="userForm">
 			First name:<br>
-			<input type="text" name="firstname">
-			<br>
+			<input type="text" name="firstname"><br>
 			Last name:<br>
-			<input type="text" name="lastname">
-			<br>
+			<input type="text" name="lastname"><br>
 
 			Gender Type:<br>
 			<div class="genderType">
@@ -59,6 +85,7 @@
 		
 		<div class="animatedBlocks">
 			<input type="button" class="btn_animated" value="Animated Divs" >
+			<input type="button" class="btn_destroy" value="Destroy" >
 			<div class="animated1"> </div>
 			<div class="animated2"> </div>
 			<div class="animated3"> </div>		

@@ -1,28 +1,39 @@
 .navigation_bar{
 	background-color:grey;
 	overflow: hidden;
-	margin: 0;
-	padding: 0;
+	height:40px;
 }
 
-.navigation_bar ul {
+.navigation_bar ul{
 	list-style-type: none;
+	position:absolute;
 	margin: 0;
 	padding: 0;
 }
 
-.navigation_bar li {
+.navigation_bar ul li{
 	display:inline-block;
 	text-align: center;
+	padding: 0px 20px 0px 20px;
 }
 
 .navigation_bar a{
-	height:20px;
-	padding: 10px 10px;
 	overflow: hidden;
-	font-size: 30px;
+	font-size: 35px;
 	text-decoration:none;
 	text-align: center;
+}
+
+.navigation_bar ul li ul li{
+	background-color:green;
+	list-style-type: none;
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+
+form, a[name="help"]{
+	margin:10px;
 }
 
 select, input[name="Experience"]{
@@ -32,3 +43,14 @@ select, input[name="Experience"]{
 .navigation_bar li:hover{
 	background-color:white;
 }
+
+.animated1{
+	left:100px;
+}
+
+.animated1, .animated2, .animated3 {
+	display:block;
+	position:relative;
+	height:100px;
+	width:100px;
+} 
